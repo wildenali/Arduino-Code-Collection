@@ -17,7 +17,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "750cc8cf585f47ad89d23e5cfa9790e3";
+char auth[] = "xxxxxxxxxxxxisi sendirixxxxxxxxxxxxxxx";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
