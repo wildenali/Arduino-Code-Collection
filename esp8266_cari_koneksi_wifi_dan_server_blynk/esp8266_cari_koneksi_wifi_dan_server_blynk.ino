@@ -9,6 +9,8 @@ BlynkTimer timer;
 char auth[] = "UvI7ROLjlUgOuwyfN4IKOtRvgY-dRe8k";
 
 
+//char ssid[] = "Ini apa";
+//char pass[] = "Intiinovasiteknologi";
 char ssid[] = "iPhone wilden";
 char pass[] = "inimodem";
 char server[]          = "blynk-cloud.com";
