@@ -4,11 +4,11 @@
 
 byte mac[]    = { 0xDE, 0xED, 0xBA, 0xFE, 0xFE, 0xED };
 int ipA, ipB, ipC, ipD;
-IPAddress server(198, 168, 0, 1); // main server
+IPAddress server(180, 210, 205, 235); // main server
 
-// const char* mqtt_topic1 = "abc/def";
-const char* mqtt_topic2 = "rst/uvw";
-const char* clientID = "mesin1";
+// const char* mqtt_topic1 = "robotics/kicktarget";
+const char* mqtt_topic2 = "robotics/crazytoy2";
+const char* clientID = "kicktarget_machine1";
 
 
 void callback(char* topic, byte* payload, unsigned int length) {

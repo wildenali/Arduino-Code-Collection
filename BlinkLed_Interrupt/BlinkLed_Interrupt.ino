@@ -12,7 +12,7 @@ void setup(void)
 {
   pinMode(led, OUTPUT);
   pinMode(lad, OUTPUT);
-//  Timer1.initialize(1250);          // 0.00125 seconds = 1250 * 1000000
+  Timer1.initialize(1250);          // 0.00125 seconds = 1250 * 1000000
   Timer1.attachInterrupt(blinkLED);
   Serial.begin(115200);
 
