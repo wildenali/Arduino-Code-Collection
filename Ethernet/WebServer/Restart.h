@@ -1,0 +1,1 @@
+void(* ku_restart) (void) = 0;
